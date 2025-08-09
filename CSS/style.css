@@ -173,11 +173,12 @@ header .text {
 }
 
 .abv-1 span,
-.abv-2 span{
+.abv-2 span {
     color: #333333ae;
     font-weight: 700;
 
 }
+
 #lastname,
 #firstname,
 #role,
@@ -191,9 +192,11 @@ header .text {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
-.tt{
+
+.tt {
     text-align: center;
 }
+
 #btn-get {
     color: white;
     background-color: #ff0048;
@@ -232,19 +235,22 @@ header .text {
 .nav {
     display: flex;
     flex-direction: row;
-    color: #777d81;
-    margin-top: 32px;
-    padding: 24px 32px 24px 32px;
     justify-content: space-around;
-
+    align-items: center;
+    color: #777d81;
+    height: 90vh;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .nav-left {
+    flex: 0.3;
     display: flex;
     flex-direction: column;
-    flex: 0.3;
     padding-left: 8px;
     text-align: justify;
+    word-spacing: 2px;
     gap: 12px;
     justify-content: space-between;
 }
@@ -257,7 +263,7 @@ header .text {
     flex-direction: column;
     padding: 0px 12px 0px 12px;
     text-align: justify;
-
+    word-spacing: 2px;
     gap: 12px;
     justify-content: space-between;
 }
@@ -268,7 +274,7 @@ header .text {
     display: flex;
     flex-direction: column;
     text-align: justify;
-
+    word-spacing: 2px;
     gap: 12px;
     justify-content: space-between;
 
@@ -377,7 +383,6 @@ header .text {
     display: flex;
     flex-direction: row;
     min-width: 200px;
-    /* border: 1px solid gray; */
 
 }
 
@@ -386,7 +391,6 @@ header .text {
     display: flex;
     flex-direction: column;
     margin-top: 32px;
-    /* border-right: 1px solid black; */
 }
 
 .sale-left .left-t {
@@ -419,6 +423,13 @@ header .text {
     border: none;
 }
 
+.btn-a h1 {
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+
 .btn-a:hover {
     transition: width 2s, height 4s;
     transform: scale(1.05);
@@ -429,7 +440,6 @@ header .text {
     width: 150px;
     height: 50px;
     border-radius: 32px;
-    border: 1px solid gray;
     transition: transform 0.1s ease-in-out;
 }
 
@@ -443,13 +453,14 @@ header .text {
 .sale-right {
     flex: 0.5;
 
+
 }
 
 .sale-right img {
     width: 75%;
     height: 90%;
     max-width: 100%;
-    padding-left: 22px;
+    padding: 0 auto;
 }
 
 .process {
@@ -510,35 +521,34 @@ header .text {
     height: 100%;
     width: 100%;
     min-width: 40px;
-    /* border: 1px solid gray; */
     gap: 8px;
 
 }
 
 .btt-a h1 {
     color: #ff0048;
-    background-color: #ff00484b;
+    background-color: #b4406177;
     width: 160px;
     height: 160px;
     min-width: 30px;
     border-radius: 50%;
     padding-top: 60px;
     align-items: center;
-    margin-left: 140px;
+    margin: 0 auto;
 }
 
 .btt-a h3 {
     font-size: 24px;
     height: 30px;
     font-weight: 700;
-    padding-left: 24px;
+    padding: 0 auto;
 }
 
 .btt-a p {
     font-size: larger;
     color: #3333338e;
     font-weight: 400;
-    padding-left: 24px;
+    padding: 0 auto;
 
 }
 
@@ -549,7 +559,7 @@ header .text {
     text-align: center;
     gap: 16px;
     min-width: 160px;
-    border: 1px solid gray;
+
 
 
 
@@ -559,9 +569,7 @@ header .text {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding: 12px;
-
-    padding: 12px 12px 12px 62px;
+    padding: 0 auto;
 }
 
 .bro-1 h2 {
@@ -577,9 +585,9 @@ header .text {
 .bro-2 {
     display: flex;
     flex-direction: row;
-    margin-top: 16px;
+    margin: 0 auto;
     gap: 8px;
-    padding: 12px 120px 12px 120px;
+    padding: 0 auto;
 
 }
 
@@ -693,4 +701,67 @@ header .text {
     font-size: 32px;
     border-radius: 10px;
 
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: #777d81;
+    height: 90vh;
+    width: 85%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.last-1 {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-bottom: 4px;
+
+}
+
+.last-1 .last-1-a, .last-1 .last-1-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.last-2 {
+    flex: 0.2;
+    display: flex;
+    padding: 4px 0px;
+    justify-content: center;
+   
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+}
+
+.last-2 a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+.last-1-c{
+    display: flex;
+     gap: 4px;
+}
+.last-1-c span{
+    background-color: #000;
+    color: white;
+    border-radius: 4px;
+}
+.last-3 {
+    flex: 0.1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-3-a {
+    display: flex;
+    gap: 12px;
 }
