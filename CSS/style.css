@@ -704,31 +704,42 @@ header .text {
 }
 
 .last {
+    height: 100vh;
+    width: 85%;
+    color: #777d81;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* align-items: center; */
-    color: #777d81;
-    height: 90vh;
-    width: 85%;
-    margin: 0 auto;
-    /* text-align: center; */
+    padding: 24px 0px;
+
 }
 
 .last-1 {
     flex: 0.7;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 6px;
     padding-bottom: 4px;
+    justify-content: space-around;
 
 }
 
-.last-1 .last-1-a, .last-1 .last-1-b{
+.last-1-b,
+.last-1-c,
+.last-1-d {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 4px;
+    padding: 0;
 
+}
+
+.last-1-b h3,
+.last-1-c h3,
+.last-1-d h3 {
+    text-transform: uppercase;
 }
 
 .last-2 {
@@ -736,9 +747,8 @@ header .text {
     display: flex;
     padding: 4px 0px;
     justify-content: center;
-   
-   border-top: 1px solid gray;
-   border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .last-2 a {
@@ -746,19 +756,24 @@ header .text {
     color: #333;
     text-decoration: none;
 }
-.last-1-c{
+
+.last-1-e {
     display: flex;
-     gap: 4px;
+    gap: 4px;
 }
-.last-1-c span{
+
+.last-1-e span {
     background-color: #000;
     color: white;
-    border-radius: 4px;
+    border-radius: 12px;
+    padding: 2px 6px;
 }
+
 .last-3 {
     flex: 0.1;
     display: flex;
     justify-content: space-between;
+    padding-top: 4px;
 }
 
 .last-3-a {
